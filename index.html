@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>النادي التجاري - كلية الاقتصاد والعلوم الإدارية</title>
+    <meta
+      name="description"
+      content="النادي التجاري في كل��ة الاقتصاد والعلوم الإدارية، يقدم دورات، معلومات للطلاب الجدد، وشكاوى الطلاب." 
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <img src="assets/logo.svg" alt="شعار النادي التجاري" class="brand-logo" />
+          <div class="brand-text">
+            <h1>النادي التجاري</h1>
+            <p>كلية الاقتصاد والعلوم الإدارية</p>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="التنقل الرئيسي">
+          <a href="#home">الرئيسية</a>
+          <a href="#about">عن النادي</a>
+          <a href="#courses">الدورات</a>
+          <a href="#students">الطلاب</a>
+          <a href="#complaints">الشكاوى</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <span class="eyebrow">تنمية، تعليم، نجاح</span>
+            <h2>نادي يربط المعرفة بالأعمال والابتكار</h2>
+            <p>
+              نعمل على تطوير مهارات الطلاب في مجالات التسويق، الأعمال، الإدارة،
+              والمبادرات التجارية من خلال برامج تعليمية، ورش عمل، وأنشطة عملية.
+            </p>
+
+            <div class="search-box">
+              <input id="siteSearch" type="text" placeholder="ابحث عن دورة أو نشاط أو خدمة..." />
+              <button type="button">بحث</button>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>15+</strong>
+                <span>نشاط سنوي</span>
+              </div>
+              <div>
+                <strong>300+</strong>
+                <span>طالب مشارك</span>
+              </div>
+              <div>
+                <strong>12</strong>
+                <span>دورة تدريبية</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="feature-panel">
+              <div class="panel-badge">أحدث الأنشطة</div>
+              <h3>ورشة ريادة الأعمال</h3>
+              <p>تعلم مهارات التخطيط، العرض، وتحليل السوق بشكل عملي.</p>
+              <ul>
+                <li>محاضرات خبرية</li>
+                <li>تطبيقات عملية</li>
+                <li>مناسبات جماعية</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span>من نحن</span>
+            <h3>نادي تجاري يفتح آفاق المستقبل</h3>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card accent">
+              <h4>رسالتنا</h4>
+              <p>
+                دعم الطلاب في تطوير مهاراتهم الأكاديمية والعملية وتعزيز روح
+                المبادرة والابتكار داخل بيئة تعليمية محفزة.
+              </p>
+            </div>
+            <div class="about-card">
+              <h4>رؤيتنا</h4>
+              <p>
+                بناء جيل قادر على التفكير الاستراتيجي، إدارة المشاريع، والتفاعل مع
+                سوق العمل بمهارة وثقة.
+              </p>
+            </div>
+            <div class="about-card">
+              <h4>قيمنا</h4>
+              <p>
+                التعاون، التميز، التعلم المستمر، والتميز في خدمة الطلاب والمجتمع
+                الأكاديمي.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses" class="section alt-section">
+        <div class="container">
+          <div class="section-heading">
+            <span>الدورات</span>
+            <h3>برامج تعليمية متنوعة</h3>
+          </div>
+
+          <div class="course-tabs">
+            <button class="tab active" data-filter="all">الكل</button>
+            <button class="tab" data-filter="business">إدارة وأعمال</button>
+            <button class="tab" data-filter="marketing">تسويق</button>
+            <button class="tab" data-filter="finance">مالية</button>
+          </div>
+
+          <div class="courses-grid" id="coursesGrid">
+            <article class="course-card" data-category="business">
+              <span class="tag">إدارة</span>
+              <h4>إدارة المشاريع</h4>
+              <p>تعرف على خطوات بناء المشاريع وإدارة الموارد والفرق.</p>
+              <a href="#">التسجيل</a>
+            </article>
+
+            <article class="course-card" data-category="marketing">
+              <span class="tag">تسويق</span>
+              <h4>التسويق الرقمي</h4>
+              <p>أساسيات الحملات الرقمية، السوشيال ميديا، وتحليل الأداء.</p>
+              <a href="#">التسجيل</a>
+            </article>
+
+            <article class="course-card" data-category="finance">
+              <span class="tag">مالية</span>
+              <h4>المحاسبة الأساسية</h4>
+              <p>دراسة القوائم المالية، التكاليف، والتحليل المالي.</p>
+              <a href="#">التسجيل</a>
+            </article>
+
+            <article class="course-card" data-category="business">
+              <span class="tag">أعمال</span>
+              <h4>العلاقات العامة</h4>
+              <p>تعلم التواصل، إدارة الصورة، والتأثير في الجمهور.</p>
+              <a href="#">التسجيل</a>
+            </article>
+
+            <article class="course-card" data-category="marketing">
+              <span class="tag">تسويق</span>
+              <h4>العلامة التجارية</h4>
+              <p>تصميم هوية علامة تجارية قوية ومتميزة في السوق.</p>
+              <a href="#">التسجيل</a>
+            </article>
+
+            <article class="course-card" data-category="finance">
+              <span class="tag">مالية</span>
+              <h4>الاستثمار والتمويل</h4>
+              <p>مبادئ التمويل، الاستثمار، وتحليل الفرص الاقتصادية.</p>
+              <a href="#">التسجيل</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="students" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span>للطلاب</span>
+            <h3>معلومات مهمة للطلاب الجدد</h3>
+          </div>
+
+          <div class="students-layout">
+            <div class="student-info">
+              <h4>الطلاب السنة الأولى</h4>
+              <p>
+                مرحبًا بكم في النادي التجاري، نقدم لكم دعمًا يساعدكم على التكيف مع
+                الحياة الجامعية، اكتشاف المسارات المناسبة، والتركيز على مهاراتك
+                المستقبلية.
+              </p>
+              <ul>
+                <li>جلسات تعريفية بمسارات النادي</li>
+                <li>ورش عمل للمهارات الشخصية</li>
+                <li>تنظيم أنشطة تفاعلية ومميزة</li>
+                <li>إرشاد أكاديمي وتوجيهي</li>
+              </ul>
+            </div>
+
+            <div class="student-boxes">
+              <div class="mini-card">
+                <strong>1</strong>
+                <span>تسجيل الدخول</span>
+              </div>
+              <div class="mini-card">
+                <strong>2</strong>
+                <span>المشاركة في النشاط</span>
+              </div>
+              <div class="mini-card">
+                <strong>3</strong>
+                <span>الاستفادة من الدورات</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="complaints" class="section alt-section">
+        <div class="container complaint-wrap">
+          <div class="section-heading left-align">
+            <span>الشكاوى</span>
+            <h3>نصغي إلى طلبات الطلاب</h3>
+          </div>
+
+          <form class="complaint-form" id="complaintForm">
+            <label>
+              الاسم
+              <input type="text" name="name" placeholder="أدخل اسمك" required />
+            </label>
+
+            <label>
+              البريد الإلكتروني
+              <input type="email" name="email" placeholder="example@domain.com" required />
+            </label>
+
+            <label>
+              نوع الشكوى
+              <select name="type">
+                <option value="دورة">دورة</option>
+                <option value="نشاط">نشاط</option>
+                <option value="إدارة">إدارة</option>
+                <option value="أخرى">أخرى</option>
+              </select>
+            </label>
+
+            <label>
+              الرسالة
+              <textarea name="message" rows="5" placeholder="اكتب شكواك أو اقتراحك..." required></textarea>
+            </label>
+
+            <button type="submit">إرسال الشكوى</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 النادي التجاري - كلية الاقتصاد والعلوم الإدارية</p>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">X</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

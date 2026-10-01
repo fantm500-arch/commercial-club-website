@@ -1,0 +1,52 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="شعار النادي التجاري">
+  <rect width="800" height="800" fill="#f4f4f3"/>
+
+  <path d="M118 270 C 180 120, 620 120, 690 270" fill="none" stroke="#f2b73d" stroke-width="52" stroke-linecap="round"/>
+
+  <g transform="translate(120 190)">
+    <path d="M0 270 L 280 270 L 280 310 L 0 310 Z" fill="#70c7d5"/>
+    <path d="M0 270 L 280 270 L 200 0 L 0 0 Z" fill="#6cc4d5" opacity="0.95"/>
+    <path d="M280 270 L 540 270 L 430 0 L 200 0 Z" fill="#59b8ce" opacity="0.95"/>
+
+    <g fill="#f4b630">
+      <rect x="55" y="35" width="28" height="180" rx="2"/>
+      <rect x="105" y="85" width="28" height="130" rx="2"/>
+      <rect x="155" y="110" width="28" height="105" rx="2"/>
+      <rect x="215" y="60" width="28" height="155" rx="2"/>
+      <rect x="265" y="95" width="28" height="120" rx="2"/>
+      <rect x="315" y="45" width="28" height="170" rx="2"/>
+      <rect x="365" y="120" width="28" height="95" rx="2"/>
+    </g>
+
+    <path d="M40 260 L 348 260" stroke="#5cc0cf" stroke-width="8" stroke-linecap="round"/>
+    <path d="M140 260 L 250 157 L 408 260" fill="none" stroke="#5cc0cf" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(255 332)">
+    <path d="M0 0 L 350 0 L 260 70 L -90 70 Z" fill="#69c1d6"/>
+    <path d="M260 70 L 330 70 L 260 120 L 190 120 Z" fill="#f5c86b" opacity="0.9"/>
+  </g>
+
+  <g transform="translate(395 250)">
+    <path d="M0 0 L 180 0 L 210 70 L 180 140 L 0 140 Z" fill="none" stroke="#5bc0d2" stroke-width="7"/>
+    <path d="M170 0 L 260 0 L 314 100 L 210 100 Z" fill="none" stroke="#5bc0d2" stroke-width="7"/>
+    <path d="M0 140 L 50 240 L 90 340" fill="none" stroke="#5bc0d2" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(360 400)">
+    <path d="M0 0 C 40 -80, 110 -80, 150 0" fill="none" stroke="#f2b73d" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(350 490)">
+    <path d="M0 0 L 120 0 L 160 66 L 120 160 L 0 160 Z" fill="#4ab7ce"/>
+    <path d="M0 160 L 120 160 L 120 265" fill="none" stroke="#f6f5f0" stroke-width="8"/>
+    <path d="M60 0 L 60 160" stroke="#f6f5f0" stroke-width="8"/>
+  </g>
+
+  <g transform="translate(400 522)">
+    <circle cx="72" cy="0" r="18" fill="#4dbac7"/>
+    <path d="M72 18 L 72 160" stroke="#f7f1e3" stroke-width="8" stroke-linecap="round"/>
+    <path d="M72 160 L 60 185" stroke="#f7f1e3" stroke-width="8" stroke-linecap="round"/>
+    <path d="M72 160 L 84 185" stroke="#f7f1e3" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
