@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (searchInput) {
     searchInput.addEventListener('input', (event) => {
-      const categoryEl = document.querySelector('.tab.active');
-      const activeCategory = categoryEl ? categoryEl.dataset.filter : 'all';
+      const activeTab = document.querySelector('.tab.active');
+      const activeCategory = activeTab ? activeTab.dataset.filter : 'all';
       filterCourses(event.target.value, activeCategory);
     });
   }
@@ -34,76 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
     complaintForm.addEventListener('submit', (event) => {
       event.preventDefault();
       const formData = new FormData(complaintForm);
-      const name = formData.get('name');
+      const name = formData.get('name') || 'طالب';
       alert(`تم استلام الشكوى بنجاح، ${name}. شكرًا لك على ملاحظاتك.`);
       complaintForm.reset();
     });
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
